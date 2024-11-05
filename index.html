@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Sections -->
+    <section id="home">
+      <h1>Selamat Datang di Website Kami</h1>
+      <p>Ini adalah bagian Home.</p>
+    </section>
+
+    <section id="about">
+      <h2>Tentang Kami</h2>
+      <p>Ini adalah bagian Tentang.</p>
+    </section>
+
+    <section id="services">
+      <h2>Layanan Kami</h2>
+      <p>Ini adalah bagian Layanan.</p>
+    </section>
+
+    <!-- Kontak Section with Form and Social Media -->
+    <section id="contact">
+      <h2>Kontak Kami</h2>
+      <div class="contact-container">
+        <!-- Formulir Kontak -->
+        <form class="contact-form">
+          <label for="name">Nama:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Masukkan nama Anda"
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Masukkan email Anda"
+          />
+
+          <label for="message">Pesan:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Tulis pesan Anda"
+          ></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+
+        <!-- Ikon Media Sosial -->
+        <div class="social-media">
+          <h3>Ikuti Kami</h3>
+          <a href="#" class="social-icon">Facebook</a>
+          <a href="#" class="social-icon">Twitter</a>
+          <a href="#" class="social-icon">Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Hi, Fulan. Terima kasih telah berkunjung!</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
